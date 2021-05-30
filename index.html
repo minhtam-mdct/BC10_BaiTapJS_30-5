@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        p, span{
+            font-size: 21px;
+
+        }
+        p{
+            font-weight: 600;
+        }
+        input{
+            font-size: 21px;
+        }
+        button{
+            font-size: 18px;
+        }
+        table{
+            width: 70%;
+            margin: auto;
+        }
+        td {
+            border: 2px solid black;
+        }
+        .time{
+            width: 100px;
+            margin: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Bài tập 1</h1>
+    <!-- <span id="bT1"></span> -->
+    <table>
+        <tbody id="bangSo">
+
+        </tbody>
+    </table>
+
+    <h1>Bài tập 2</h1>
+    <input type="text" name="" id="txtPrime">
+    <button onclick="addPrime()">thêm số</button>
+    <button onclick="findPrime()">Tìm số nguyên tố</button>
+    <p>Số được thêm</p>
+    <span id="txtCheckPrime"></span>
+    <p>Số nguyên tố là: </p>
+    <span id="numPrime"></span>
+
+    <h1>Bài tập 3</h1>
+    <input type="text" name="" id="numB3">
+    <button onclick="baiTapThree()">Tính S=(2+3+4+...+n)+2n</button>
+    <p>Giá trị S= <span id="bT3"></span></p>
+
+    <h1>Bài tập 4</h1>
+    <input type="text" name="" id="numB4">
+    <button onclick="devisorNumb()" >Tính ước số</button>
+    <p>Số lượng ước số: <span id="countDevisor"></span></p>
+    <p>Các ước số là: <span id="devisorNumb"></span></p>
+
+    <h1>Bài tập 5</h1>
+    <input type="text" name="" id="txtDaoSo">
+    <button onclick="daoSo()">Đảo chuỗi</button>
+    <p>>>> <span id="daoSo"></span> <<<</p>
+
+    <h1>Bài tập 6</h1>
+    <p>X nguyên dương lớn nhất là: <span id="xNguyenDuong"></span></p>
+
+    <h1>Bài tập 7</h1>
+    <input type="text" name="" id="numB7">
+    <button onclick="bangCuuChuong()" >Xuất bảng cửu chương</button>
+    <p>Bảng cửu chưởng là:</p>
+    <span id="txtBangCuuChuong"></span>
+
+    <h1>Bài tập 8</h1>
+    <p>Chia bài: </p>
+    <p>Player1: <span id="player1"></span></p>
+    <p>Player2: <span id="player2"></span></p>
+    <p>Player3: <span id="player3"></span></p>
+    <p>Player4: <span id="player4"></span></p>
+
+    <h1>Bài tập 9</h1>
+    <p style="margin-bottom: 3px;">Nhập tổng số chân</p>
+    <input type="text" name="" id="txtSoChan" placeholder="nhập tổng số chân">
+    <p style="margin-bottom: 3px;">Nhập tổng số chó và gà</p>
+    <input type="text" name="" id="txtTongChoGa" placeholder="nhập tổng số chó và gà">
+    <br>
+    <button style="margin-top: 10px;" onclick="baiTap9()">Tính số chó và gà</button>
+    <br>
+    <span id="warning" style="color: red;"></span>
+    <p>Số con chó là: <span id="soCho"></span></p>
+    <p>Số con gà là: <span id="soGa"></span></p>
+
+    <h1>Bài tập 10</h1>
+    <input class="time" type="text" name="" id="nhapGio"><span>giờ</span>
+    <input class="time" type="text" name="" id="nhapPhut"><span>phút</span>
+    <br>
+    <span id="warningBT10" style="color: red;"></span>
+    <br>
+    <button onclick="baiTap10()">Tính góc lệch</button>
+    <p>Góc lệch giữa kim giờ và kim phút là: <span id="bT10"></span></p>
+
+    <script src="./js/BaiTap1.js"></script>
+    <script src="./js/BaiTap2.js"></script>
+    <script src="./js/BaiTap3.js"></script>
+    <script src="./js/BaiTap4.js"></script>
+    <script src="./js/BaiTap5.js"></script>
+    <script src="./js/BaiTap6.js"></script>
+    <script src="./js/BaiTap7.js"></script>
+    <script src="./js/BaiTap8.js"></script>
+    <script src="./js/BaiTap9.js"></script>
+    <script src="./js/BaiTap10.js"></script>
+</body>
+
+</html>
